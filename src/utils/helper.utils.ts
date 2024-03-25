@@ -25,14 +25,10 @@ export function random(start: number, stop: number) {
     throw new Error("Unexpected error: Non-repeating random generation failed.");
 }
 
-// export function newValue(value: number, stop: number = value) {
-//     return value + random(1, random(1, stop))
-// }
-
 
 
 export function newValue(value: number): number {
-    const newValue = Math.floor(0.9 * Math.abs(value));
+    const newValue = Math.floor(0.5 * Math.abs(value));
     return random(-newValue, newValue);;
 }
 
