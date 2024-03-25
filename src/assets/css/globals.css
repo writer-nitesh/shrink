@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+button[type="button"] {
+    @apply rounded-md bg-primary text-white py-1  px-2 
+}
+
+input[type="search"] {
+    @apply outline-none caret-[#D32F2F] w-full bg-transparent 
+}
