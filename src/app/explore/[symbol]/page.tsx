@@ -128,7 +128,7 @@ export default function Symbol() {
               <span>volume</span> <span className={`${stock.volume > 0 ? "text-postive" : "text-negative"}`} >{stock.volume}</span>
             </div>
             <div className='w-full p-2 capitalize flex justify-between'>
-              <span>change</span><span className={`${stock.change > 0 ? "text-postive" : "text-negative"}`} >{stock.change}</span>
+              <span>change</span><span className={`${stock.change > 0 ? "text-postive" : "text-negative"}`} >{stock.change.toFixed(2)}</span>
             </div>
 
           </div>

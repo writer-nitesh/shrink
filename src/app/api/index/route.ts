@@ -1,6 +1,6 @@
 import { indexs } from "@/data/market"
 import { newValue, random } from "@/utils/helper.utils"
-
+export const runtime = 'edge'
 export async function GET(request: Request) {
     const newIndexs = indexs.map((index) => {
         let ltp = index.ltp + newValue(index.open)

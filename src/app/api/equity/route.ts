@@ -1,7 +1,7 @@
 import { equities } from "@/data/market"
 import { newValue, random } from "@/utils/helper.utils"
 import { Market } from "@/utils/types.utils"
-
+export const runtime = 'edge'
 export async function GET(request: Request) {
     const newEquities = equities.map((equity) => {
         const base = equity.base
