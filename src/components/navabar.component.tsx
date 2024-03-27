@@ -58,6 +58,7 @@ export function Navbar() {
                         <Link className={`${currentPath == "investments" && "text-negative"}   `} href="/investments" >Investments</Link>
                     </>
                 }
+                <Link className={`${currentPath == "api" && "text-negative"}   `} href="/api" >API</Link>
             </div>
             <Search />
             {

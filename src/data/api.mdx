@@ -1,0 +1,36 @@
+**Shinkk API** is a stock market API which not works on real data. Market Up's and Down are Simulated with market logic.
+
+### API Routes
+
+Market [Indexs](/api/index) 
+
+``` 
+ https://shrinkk-six.vercel.app/api/index
+``` 
+
+Market [Equites](/api/index) 
+
+ ``` 
+ https://shrinkk-six.vercel.app/api/equity
+ ``` 
+
+### API Return Type
+
+ ```
+[
+    {
+        name: string
+        symbol: string
+        exchange: string
+        open: number
+        close: number
+        high: number
+        low: number
+        ltp: number
+        change: number
+        percentage_change: number
+        volume: number
+    }
+]
+```
+*Shrinkk Stock Market are subject to code risks*
