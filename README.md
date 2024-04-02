@@ -2,6 +2,7 @@
 
 ### Built for shrinkking Patience
 
+[Live Here](https://shrinkk-six.vercel.app)
 ![logo](/src/assets/images/shrink-logo.png)
 
 Shinkk is a stock market website which not works on real data
